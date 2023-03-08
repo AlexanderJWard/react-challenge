@@ -6,13 +6,14 @@ import PostItem from './components/PostItem';
 import ContentHooks from './components/ContentHooks';
 import PostItemAPI from './components/PostItemAPI';
 import ContentAPI from './components/ContentAPI';
+import ContentAPIHooks from './components/ContentAPIHooks';
 
 function App() {
   return (
     <div>
       <NavBarForm/>
       <Sidebar/>
-      <ContentAPI/>
+      <ContentAPIHooks/>
       <PostItemAPI/>
     </div>
   );
